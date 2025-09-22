@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="city">City</button>
+    <button data-filter="animals">Animals</button>
+  </div>
+
+  <!-- Gallery -->
+  <div class="gallery">
+    <img src="images/img4.jpg" alt="Nature" data-category="nature">
+    <img src="images/img1.jpg" alt="City" data-category="city">
+    <img src="images/img2.jpg" alt="Animals" data-category="animals">
+    <img src="images/img5.jpg" alt="Nature" data-category="nature">
+    <img src="images/img6.jpg" alt="City" data-category="city">
+    <img src="images/img2.jpg" alt="Animals" data-category="animals">
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-image" src="">
+    <div class="navigation">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
